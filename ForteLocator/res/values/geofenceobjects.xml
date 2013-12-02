@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="geofeceobjects">
+        <item>1_6.450473_3.394966_Awolowo Road</item>
+        <item>2_6.441222_3.417955_Ogba</item>
+        <item>3_6.525326_3.294181_Isheri Oshun</item>
+        <item>4_6.525312_3.294634_Wharf Road Apapa</item>
+        <item>5_6.471005_3.373519_Ijora Badia</item>
+        <item>6_6.469459_3.373478_Campbell Street</item>
+        <item>7_6.483234_3.356066_Mushin Oluwole Street</item>
+        <item>8_6.532223_3.352462_Shipeolu Street Shomolu</item>
+        <item>9_6.534029_3.368125_Dan Fodio Blvd</item>
+        <item>10_6.518864_3.390961_Carol and Asmau</item>
+        <item>11_6.470592_3.189983_Igando Road</item>
+        <item>12_6.602083_3.234154_Ayobo</item>
+        <item>13_6.559099_3.278850_Liasu Road</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:title="@string/settingforte" >
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="ng.com.audax.fortelocator.geofence.KEY_SERVICE_SWITCH"
+        android:persistent="true"
+        android:summary="summary"
+        android:title="@string/switchprefsapp" android:selectable="false"/>
+
+    <ng.com.audax.fortelocator.NumberPickerDialogPreference
+        android:defaultValue="3"
+        android:dialogMessage="@string/txtMessage"
+        android:key="ng.com.audax.fortelocator.geofence.KEY_GEOFENCE_RADIUS"
+        android:max="10"
+        android:persistent="true"
+        android:summary=""
+        android:title="@string/txtGeofenceRadius"
+        custom:min="1" />
+
+    <ListPreference
+        android:defaultValue="Lagos"
+        android:entries="@array/states"
+        android:entryValues="@array/statevalue"
+        android:key="ng.com.audax.fortelocator.geofence.KEY_GEOFENCE_STATES"
+        android:summary="@string/list_prefs_summary"
+        android:title="Preferred State" android:persistent="true"/>
+
+</PreferenceScreen>
